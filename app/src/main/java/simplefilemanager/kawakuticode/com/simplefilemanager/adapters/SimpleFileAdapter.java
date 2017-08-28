@@ -1,9 +1,8 @@
-package simplefilemanager.kawakuticode.com.simplefilemanager.adaptares;
+package simplefilemanager.kawakuticode.com.simplefilemanager.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.transition.Explode;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

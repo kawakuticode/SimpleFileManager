@@ -28,14 +28,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-import android.app.Fragment;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
 import simplefilemanager.kawakuticode.com.simplefilemanager.activities.SettingsActivity;
-import simplefilemanager.kawakuticode.com.simplefilemanager.adaptares.SimpleFileAdapter;
+import simplefilemanager.kawakuticode.com.simplefilemanager.adapters.SimpleFileAdapter;
 import simplefilemanager.kawakuticode.com.simplefilemanager.fragments.FolderFragment;
 import simplefilemanager.kawakuticode.com.simplefilemanager.models.DirsFilesModel;
 import simplefilemanager.kawakuticode.com.simplefilemanager.utilities.Utilities;
