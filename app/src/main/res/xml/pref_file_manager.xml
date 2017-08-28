@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Choose Default Folder">
+        <ListPreference
+            android:key="PREF_DEFAULT_FOLDER_LIST"
+            android:entries="@array/default_folder"
+            android:entryValues="@array/default_folder_values"
+            android:summary="%s"
+            android:defaultValue="@string/pref_default_folder"
+            android:title="DEFAULT FOLDER" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
